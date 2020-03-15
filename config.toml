@@ -1,4 +1,4 @@
-baseURL = "https://redpatronus.com"
+baseURL = "/"
 title   = "RedPatronus"
 
 DefaultContentLanguage = "en"
