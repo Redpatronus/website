@@ -14,6 +14,12 @@ theme = "hugo-serif-theme"
   google_analytics_id = ""
   google_tag_manager_id = ""
 
+  [params.fonts]
+    # sets the google font link in layouts/partials/google-fonts.html
+    google_fonts = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@400;700&display=swap'
+    heading = "Playfair Display"
+    base = "Source Sans Pro"
+
   [params.homepage]
     show_contact_box = true # show / hide the contaxt box on the homepage
     show_services_button = true  # show / hide the "view all services" button
