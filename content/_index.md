@@ -1,12 +1,16 @@
 ---
-title: 'Homepage'
-meta_title: 'Hugo Serif Theme'
-description: "Serif is a modern business theme for Hugo."
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+title: ""
+subtitle: "Security experts on your side"
+description: "Not all themes are created equal. With Blogophonic we set out to create a clean theme with the right features for a serious blog. We also wanted Blogophonic to be a pleasure to modify, so we built it with Tachyons, CSS Grid and packed it full of configurable options."
+date: 2019-02-18T12:27:33-06:00
+images:
+  - img/unicorn-megaphone.png
+show_action_link: true
+action_link: /about
+action_label: "Read More &rarr;"
+action_type: text # text, button
+type: home
 ---
 
-# security experts on your side.
-
-Redpatronus is company with security experts focus on build security infrastructure with strong base in __DevSecOps__ principle. We have strong experience with [Terraform](https://www.terraform.io/) / [Terragrunt](https://terragrunt.gruntwork.io), so we can help you to build and manage your security infrastructure as a code.
+** index doesn't contain a body, just front matter above.
+See index.html in the layouts folder **
