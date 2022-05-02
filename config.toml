@@ -1,5 +1,5 @@
 theme = "blogophonic-hugo"
-baseURL = "https://redpatronus.com"
+baseURL = "https://www.redpatronus.com"
 languageCode = "en"
 title = "RedPatronus"
 author = "Formspree"
