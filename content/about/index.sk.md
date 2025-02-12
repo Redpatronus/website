@@ -1,5 +1,5 @@
 ---
-title: O nas
+title: redpatron.us | o nas
 toc: false
 ---
 

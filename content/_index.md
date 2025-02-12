@@ -11,7 +11,7 @@ layout: hextra-home
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  We can make world more secure&nbsp;<br class="sm:hx-block hx-hidden" />together we will
+  We can make world more secure,&nbsp;<br class="sm:hx-block hx-hidden" />together we will.
 {{< /hextra/hero-headline >}}
 </div>
 
@@ -32,7 +32,7 @@ layout: hextra-home
     title="Penetration tests"
     subtitle="From classic penetration tests to RedTeam"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/hextra-doc.webp"
+    image="https://micropro.com/wp-content/uploads/2022/08/hackers.jpg"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -40,7 +40,7 @@ layout: hextra-home
     title="Phishing"
     subtitle="Customized phishing campaign"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="images/hextra-markdown.webp"
+    image="https://image-optimizer.cyberriskalliance.com/unsafe/1920x0/https://files.scmagazine.com/wp-content/uploads/2024/07/072224_phishing_hook.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}

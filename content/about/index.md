@@ -1,5 +1,5 @@
 ---
-title: About
+title: redpatron.us | about
 toc: false
 ---
 
