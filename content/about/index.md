@@ -8,6 +8,11 @@ Red Patronus is a team of cybersecurity experts passionate about protecting busi
 Our team brings years of experience across various cybersecurity fields, including ethical hacking, network security, application security, and regulatory compliance. We are committed to understanding each client’s unique needs and tailoring our solutions to align with their goals, industry requirements, and security challenges.
 Our mission is simple: to be your trusted partner in cybersecurity. Whether you need to test your defenses, protect sensitive data, or develop a proactive security strategy, we bring the expertise, innovation, and dedication you need to stay a step ahead of threats and protect what matters most to you.
 
+ {{< cards >}}
+  {{< card link="/" title="Richard M." image="https://source.unsplash.com/featured/800x600?landscape" subtitle="Cyber Security Engineer" >}}
+  {{< card link="https://burso.eu" title="Matus B." image="/images/team/matusb.jpg" subtitle="Ethical Hacker" >}}
+{{< /cards >}}
+
 ##### We Offer You
 - Over 20 years of cybersecurity experience
 - Background in private, public, and military sectors

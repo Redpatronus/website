@@ -53,7 +53,7 @@ menu:
     - identifier: about
       name: About
       pageRef: /about
-      weight: 4
+      weight: 3
     - name: Search
       weight: 5
       params:
@@ -69,7 +69,7 @@ menu:
       params:
         icon: x-twitter
     - name: Mail
-      weight: 8
+      weight: 4
       url: "mailto:info@redpatron.us"
       params:
         icon: mail
