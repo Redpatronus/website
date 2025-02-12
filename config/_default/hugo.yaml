@@ -1,0 +1,153 @@
+######################## default configuration ####################
+# Your theme name
+theme: "hextra"
+# Title of your website (required).
+title: "redpatron.us"
+
+enableGitInfo: true
+enableEmoji: false
+hasCJKLanguage: true
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  sk:
+    languageName: Slovak
+    weight: 2
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.112.0"
+
+  workspace: hugo.work
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - identifier: portfolio
+      name: Portfolio
+      pageRef: /portfolio
+      weight: 2
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/Redpatronus"
+      params:
+        icon: github
+    - name: X
+      weight: 7
+      url: "https://x.com/redpatronus"
+      params:
+        icon: x-twitter
+    - name: Mail
+      weight: 8
+      url: "mailto:info@redpatron.us"
+      params:
+        icon: mail
+
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+    - identifier: hugoDocs
+      name: "Hugo Docs ↗"
+      url: "https://gohugo.io/documentation/"
+      weight: 3
+
+params:
+  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      # width: 40
+      # height: 20
+      # link: /
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: false
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  editURL:
+    enable: false
+    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+
+  blog:
+    enable: false
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  comments:
+    enable: false
+

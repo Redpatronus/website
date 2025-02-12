@@ -25,3 +25,15 @@
 [submodule "themes/blogophonic-hugo"]
 	path = themes/blogophonic-hugo
 	url = https://github.com/formspree/blogophonic-hugo.git
+[submodule "themes/hugo-bearcub"]
+	path = themes/hugo-bearcub
+	url = https://github.com/clente/hugo-bearcub
+[submodule "themes/hugo-theme-monochrome"]
+	path = themes/hugo-theme-monochrome
+	url = https://github.com/kaiiiz/hugo-theme-monochrome.git
+[submodule "themes/dot-org-hugo-theme"]
+	path = themes/dot-org-hugo-theme
+	url = https://github.com/cncf/dot-org-hugo-theme.git
+[submodule "themes/hextra"]
+	path = themes/hextra
+	url = https://github.com/imfing/hextra
