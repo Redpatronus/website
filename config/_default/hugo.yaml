@@ -47,8 +47,8 @@ enableInlineShortcodes: true
 menu:
   main:
     - identifier: portfolio
-      name: Portfolio
-      pageRef: /portfolio
+      name: Services
+      pageRef: /services
       weight: 2
     - identifier: about
       name: About
@@ -90,7 +90,7 @@ menu:
       weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: We can make the world more secure, together we will.
 
   navbar:
     displayTitle: true
@@ -114,14 +114,15 @@ params:
 
   footer:
     enable: true
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: true
     width: normal
+
 
   # Display the last modification date
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
-
+  
   # Search
   # flexsearch is enabled by default
   search:

@@ -1,13 +1,9 @@
 ---
-title: Hextra Theme
+title: redpatron.us
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge >}}
-  <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>We're here to help you</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
+{{< badge content="UNDER ATTACK?" type="warning" link="/cth/under-attack/" icon="warning" >}}
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
@@ -35,6 +31,7 @@ layout: hextra-home
     image="https://micropro.com/wp-content/uploads/2022/08/hackers.jpg"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    link="/services/penetration-tests"
   >}}
   {{< hextra/feature-card
     title="Phishing"
@@ -43,6 +40,7 @@ layout: hextra-home
     image="https://image-optimizer.cyberriskalliance.com/unsafe/1920x0/https://files.scmagazine.com/wp-content/uploads/2024/07/072224_phishing_hook.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+    link="/services/phishing"
   >}}
   {{< hextra/feature-card
     title=""

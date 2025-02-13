@@ -29,7 +29,7 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Penetration tests"
+    title="Penetracne testy"
     subtitle="Simple and easy to use, yet powerful and feature-rich."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="images/hextra-doc.webp"
