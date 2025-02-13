@@ -1,9 +1,9 @@
 ---
 linkTitle: "Cyber Threat Hub"
-title: Introduction
+title: Cyber Threat Hub
 ---
 
-Cyber Threat Hub: CVEs, Security Reports & Benchmarks
+CVEs, Security Reports & Benchmarks
 
 <!--more-->
 

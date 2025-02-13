@@ -1,0 +1,97 @@
+{{ define "main" }}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const scrollContainer = document.querySelector(".references-container");
+        const leftButton = document.querySelector(".left-btn");
+        const rightButton = document.querySelector(".right-btn");
+
+        function updateButtonVisibility() {
+            if (scrollContainer.scrollLeft === 0) {
+                leftButton.style.opacity = "0.5"; // Disable left button if at start
+            } else {
+                leftButton.style.opacity = "1"; 
+            }
+
+            if (scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth) {
+                rightButton.style.opacity = "0.5"; // Disable right button if at end
+            } else {
+                rightButton.style.opacity = "1";
+            }
+        }
+
+        function scrollLeft() {
+            scrollContainer.scrollBy({
+                left: -200, /* Move left */
+                behavior: "smooth",
+            });
+            setTimeout(updateButtonVisibility, 300); // Delay for smooth update
+        }
+
+        function scrollRight() {
+            scrollContainer.scrollBy({
+                left: 200, /* Move right */
+                behavior: "smooth",
+            });
+            setTimeout(updateButtonVisibility, 300);
+        }
+
+        // Initial check when page loads
+        updateButtonVisibility();
+
+        // Attach functions to buttons
+        leftButton.addEventListener("click", scrollLeft);
+        rightButton.addEventListener("click", scrollRight);
+
+        // Update button visibility when scrolling manually
+        scrollContainer.addEventListener("scroll", updateButtonVisibility);
+    });
+</script>
+<div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+    <div class="hx-w-full hx-break-words hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-pb-8 hx-pt-8 md:hx-pt-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-left),1.5rem)]">
+      <div class="hx-flex hx-flex-col hx-items-start">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <section class="references-section">
+    <h2 class="references-title">Our Trusted Partners</h2>
+
+    <div class="references-wrapper">
+        <!-- Left Arrow Button -->
+        <button class="scroll-btn left-btn" onclick="scrollLeft()">
+            &#10094; <!-- Left Arrow Icon -->
+        </button>
+
+        <!-- Scrollable Container -->
+        <div class="references-container">
+            <div class="references-scroll">
+                <div class="hextra-card reference-card"></div>
+                <div class="hextra-card reference-card"></div>
+                <div class="hextra-card reference-card"></div>
+                
+                <!-- Company Cards -->
+                <div class="hextra-card reference-card">
+                    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFePkGg652Yhg/company-logo_200_200/company-logo_200_200/0/1638520740583/bonet_systems_sro_logo?e=2147483647&v=beta&t=hELObxHpUOGoZ_C5wWQCrKwzITC9YNhrF2_RITmNKcc" alt="Company 1">
+                    <p>bonet.systems</p>
+                </div>
+
+                <div class="hextra-card reference-card">
+                    <img src="/images/company2-logo.png" alt="Company 2">
+                    <p>Company 2</p>
+                </div>
+
+                <div class="hextra-card reference-card">
+                    <img src="/images/company3-logo.png" alt="Company 3">
+                    <p>Company 3</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Arrow Button -->
+        <button class="scroll-btn right-btn" onclick="scrollRight()">
+            &#10095; <!-- Right Arrow Icon -->
+        </button>
+    </div>
+</section>
+{{ end }}
