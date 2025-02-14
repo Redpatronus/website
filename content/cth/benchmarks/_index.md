@@ -1,6 +1,5 @@
 ---
 title: Benchmarks
-toc: false
 ---
 
 The Benchmarks section provides a comprehensive collection of industry-recognized security standards, frameworks, and best practices, including OWASP, CIS, NIST, and more. These open benchmarks serve as essential guidelines for securing systems, applications, and networks against evolving cyber threats.

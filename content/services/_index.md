@@ -27,9 +27,9 @@ Open source projects powered by Hextra
   >}}
 
   {{< card
-        link="https://github.com/jonaspleyer/cellular_raza"
-        title="cellular_raza"
-        image="https://github.com/user-attachments/assets/f24c6455-b70a-419b-b025-e3d60101b673"
+        link="/services/eox"
+        title="EagleOneX"
+        image="/images/eox.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 

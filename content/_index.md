@@ -25,8 +25,8 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Penetration tests"
-    subtitle="From classic penetration tests to RedTeam"
+    title="Offensive Security Services"
+    subtitle="From classic penetration tests & customized phishing campaigns to RedTeam"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="https://micropro.com/wp-content/uploads/2022/08/hackers.jpg"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -34,8 +34,8 @@ layout: hextra-home
     link="/services/penetration-tests"
   >}}
   {{< hextra/feature-card
-    title="Phishing"
-    subtitle="Customized phishing campaign"
+    title="Defensive Security Services"
+    subtitle=""
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
     image="https://image-optimizer.cyberriskalliance.com/unsafe/1920x0/https://files.scmagazine.com/wp-content/uploads/2024/07/072224_phishing_hook.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -43,32 +43,34 @@ layout: hextra-home
     link="/services/phishing"
   >}}
   {{< hextra/feature-card
-    title=""
-    subtitle="Built-in full text search with FlexSearch, no extra setup required."
+    title="External Threat & Security Monitoring Suite"
+    subtitle="AI C-SEC Platform"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/hextra-search.webp"
+    image="/images/eox.png"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+    link="/services/eox"
   >}}
   {{< hextra/feature-card
-    title="Lightweight as a Feather"
+    title="Cybersecurity Training"
     subtitle="No dependency or Node.js is needed to use Hextra. Powered by Hugo, one of *the fastest* static site generators, building your site in just seconds with a single binary."
   >}}
   {{< hextra/feature-card
-    title="Responsive with Dark Mode Included"
-    subtitle="Looks great on different screen sizes. Built-in dark mode support, with auto-switching based on user's system preference."
+    title="Compliance and Regulatotion / Audits"
+    subtitle="Compliance and Regulatotion / Audits, OSINT, GAP analysis"
   >}}
   {{< hextra/feature-card
-    title="Build and Host for Free"
+    title="Identity Access Management"
     subtitle="Build with GitHub Actions, and host for free on GitHub Pages. Alternatively it can be hosted on any static hosting service."
+    icon="user"
   >}}
   {{< hextra/feature-card
-    title="Multi-Language Made Easy"
+    title="Phishing"
     subtitle="Create multi-language pages by just adding locales suffix to the Markdown file. Adding i18n support to your site is intuitive."
+    icon="desktop-computer"
   >}}
   {{< hextra/feature-card
-    title="And Much More..."
+    title="SIEM & Audit logging"
     icon="sparkles"
-    subtitle="Syntax highlighting / Table of contents / SEO / RSS / LaTeX / Mermaid / Customizable / and more..."
   >}}
 {{< /hextra/feature-grid >}}
