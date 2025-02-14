@@ -84,10 +84,18 @@ menu:
       name: "About"
       pageRef: "/about"
       weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
+    - identifier: services
+      name: "Services"
+      pageRef: "/services"
       weight: 3
+    - identifier: eox
+      name: "EagleOneX ↗"
+      url: "/eox"
+      weight: 4
+    - identifier: rss
+      name: "RSS feed"
+      url: "/cth/index.xml"
+      weight: 4
 
 params:
   description: We can make the world more secure, together we will.

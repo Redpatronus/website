@@ -1,6 +1,6 @@
 ---
-title: redpatron.us | about
-toc: false
+title: About
+width: wide
 ---
 
 ##### Who we are
@@ -9,8 +9,9 @@ Our team brings years of experience across various cybersecurity fields, includi
 Our mission is simple: to be your trusted partner in cybersecurity. Whether you need to test your defenses, protect sensitive data, or develop a proactive security strategy, we bring the expertise, innovation, and dedication you need to stay a step ahead of threats and protect what matters most to you.
 
  {{< cards >}}
-  {{< card link="/" title="Richard M." image="/images/team/richardm.jpeg" subtitle="Cyber Security Engineer" >}}
-  {{< card link="https://burso.eu" title="Matus B." image="/images/team/matusb.jpg" subtitle="Ethical Hacker" >}}
+  {{< card link="https://tvojkapitan.sk" title="Richard M." image="/images/team/richardm.jpeg" subtitle="Cyber Security Engineer (Founder)" >}}
+  {{< card link="https://burso.eu" title="Matus B." image="/images/team/matusb.jpg" subtitle="Ethical Hacker (Co-Founder)" >}}
+   {{< card link="/" title="Angelo V." image="/images/team/angelov.jpeg" subtitle="CSO" >}}
 {{< /cards >}}
 
 ##### We Offer You

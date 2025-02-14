@@ -2,156 +2,60 @@
 title: Penetration Tests
 date: 2025-02-13
 authors:
-  - name: imfing
-    link: https://github.com/imfing
+  - name: burso
+    link: https://github.com/matusso
     image: https://github.com/imfing.png
-  - name: Octocat
-    link: https://github.com/octocat
-    image: https://github.com/octocat.png
 tags:
-  - Markdown
-  - Example
-  - Guide
+  - OWASP
+  - Web
+  - Infrastructure
+  - Penetration Tests
 excludeSearch: false
+width: wide
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
-<!--more-->
+## Overview
 
-## Basic Syntax
+Penetration testing, commonly known as pentesting, is a systematic and controlled process where security professionals simulate cyber-attacks against an organization’s systems, networks, or applications. The primary objective is to identify vulnerabilities before they can be exploited by malicious actors. By proactively uncovering weaknesses, organizations can enhance their security posture, ensure compliance with industry standards, and protect sensitive data.
 
-### Headings
+{{< cards cols="2" >}}
+  {{< card
+        link="mailto:sales@redpatron.us?subject=Quote for Web Penetration Test"
+        title="Web Penetration Tests by OWASP methodology"
+        subtitle="from 5000 eur"
+        image="https://micropro.com/wp-content/uploads/2022/08/hackers.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
 
-```
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-```
+  {{< card
+        link="mailto:sales@redpatron.us?subject=Quote for Infrastructure Penetration Test"
+        title="Infrastructure Penetration Tests"
+        subtitle="from 2500 eur"
+        image="https://image-optimizer.cyberriskalliance.com/unsafe/1920x0/https://files.scmagazine.com/wp-content/uploads/2024/07/072224_phishing_hook.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+{{< /cards >}}
 
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+## Categories
 
-### Emphasis
+##### 1.	Web Application Penetration Testing
+This category focuses on evaluating the security of web-based applications. Testers simulate attacks to identify vulnerabilities such as SQL injection, cross-site scripting (XSS), broken authentication, and other common issues outlined in frameworks like the OWASP Top 10. Effective web penetration testing helps protect user data, maintain service integrity, and prevent unauthorized access through exploited web vulnerabilities.
 
-```text
-*This text will be italic*
-_This will also be italic_
+#####	2.	Infrastructure Penetration Testing
+Infrastructure penetration testing examines the robustness of an organization’s network, servers, and associated hardware. This includes assessing firewalls, routers, operating systems, and network configurations to detect potential weaknesses. By identifying misconfigurations and security gaps, this type of testing enables organizations to fortify their critical systems against unauthorized access and disruptive cyber-attacks.
 
-**This text will be bold**
-__This will also be bold__
+#####	3.	Red Team Operations
+Red team exercises represent a comprehensive, adversary-simulation approach. Unlike targeted penetration tests, red teaming involves a broader scope, encompassing multiple attack vectors—including technical, physical, and social engineering techniques—to assess an organization’s overall security defenses. Red team operations are designed to evaluate the effectiveness of both preventative measures and the organization’s incident detection and response capabilities, providing a realistic perspective on how well security controls withstand a persistent threat.
 
-_You **can** combine them_
-```
+## Penetration Testing vs. Red Teaming
 
-*This text will be italic*
+While both penetration testing and red teaming are vital components of a robust cybersecurity strategy, they differ in scope and execution:
 
-_This will also be italic_
+#####	Penetration Testing
+Typically involves a focused evaluation of specific systems or applications within a defined scope. The primary goal is to identify technical vulnerabilities that can be exploited, often within a limited timeframe. Penetration testing is generally more prescriptive and may serve as a compliance requirement.
 
-**This text will be bold**
+#####	Red Teaming
+Adopts a holistic, adversary-simulation approach that goes beyond mere technical vulnerability identification. It evaluates an organization’s overall security posture—including operational and procedural aspects—by simulating realistic, multi-faceted attack scenarios. Red team engagements aim to test detection and response capabilities, often over an extended period, providing insights into both technical defenses and organizational resilience.
 
-__This will also be bold__
+In summary, while penetration testing is an essential tool for uncovering specific technical vulnerabilities, red teaming offers a more comprehensive assessment by mimicking the tactics, techniques, and procedures of advanced threat actors to evaluate and improve an organization’s overall security strategy.
 
-_You **can** combine them_
-
-### Lists
-
-#### Unordered
-
-```
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-```
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-#### Ordered
-
-```
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
-```
-
-### Images
-
-```markdown
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-```
-
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-
-### Links
-
-```markdown
-[Hugo](https://gohugo.io)
-```
-
-[Hugo](https://gohugo.io)
-
-### Blockquotes
-
-```markdown
-As Newton said:
-
-> If I have seen further it is by standing on the shoulders of Giants.
-```
-
-> If I have seen further it is by standing on the shoulders of Giants.
-
-### Inline Code
-
-```markdown
-Inline `code` has `back-ticks around` it.
-```
-
-Inline `code` has `back-ticks around` it.
-
-### Code Blocks
-
-#### Syntax Highlighting
-
-````markdown
-```go
-func main() {
-    fmt.Println("Hello World")
-}
-```
-````
-
-```go
-func main() {
-    fmt.Println("Hello World")
-}
-```
-
-### Tables
-
-```markdown
-| Syntax    | Description |
-| --------- | ----------- |
-| Header    | Title       |
-| Paragraph | Text        |
-```
-
-| Syntax    | Description |
-| --------- | ----------- |
-| Header    | Title       |
-| Paragraph | Text        |
-
-## References
-
-- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
-- [Hugo Markdown](https://gohugo.io/content-management/formats/#markdown)

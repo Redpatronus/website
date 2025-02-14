@@ -7,10 +7,10 @@ Purpose: This document outlines the steps to take when an incident occurs affect
 
 {{% steps %}}
 
-### Step 1: Identify the Incident
+### Identify the Incident
 
-- Monitor alerts and logs for unusual activities
-- Check security tools, logs, or user reports
+- {{< checkbox id="task1" >}} Monitor alerts and logs for unusual activities {{< /checkbox >}}
+- {{< checkbox id="task2" >}} Check security tools, logs, or user reports {{< /checkbox >}}
 - Classify the incident severity:
     - 🟢 Low: Minor issue, no impact
     - 🟡 Medium: Some users affected, partial system impact
@@ -21,7 +21,7 @@ Purpose: This document outlines the steps to take when an incident occurs affect
 - Cloud monitoring (AWS, GCP, Azure)
 - SIEM (Security Information and Event Management)
 
-### 📌 Step 2: Activate the Incident Response Team (IRT)
+### 📌 Activate the Incident Response Team (IRT)
 
 ✅ Notify the right team immediately
 ✅ Assign an Incident Manager to take control
@@ -34,7 +34,7 @@ Purpose: This document outlines the steps to take when an incident occurs affect
 - Legal & Compliance: (Email, Phone)
 - Public Relations (PR) Team: (If external communication is needed)
 
-### Step 3: Contain the Threat
+### Contain the Threat
 
 ✅ Block malicious traffic, isolate affected systems
 ✅ Reset compromised accounts and enforce MFA
@@ -46,7 +46,7 @@ Purpose: This document outlines the steps to take when an incident occurs affect
 - Lock compromised user accounts (passwd -l <user>)
 - Network segmentation: block traffic from affected IPs
 
-### Step 4: Investigate the Root Cause
+### Investigate the Root Cause
 
 ✅ Gather logs from affected systems:
 ```
@@ -55,5 +55,8 @@ journalctl -u <service> --since "1 hour ago"
 ✅ Review security logs (SIEM, IDS/IPS, WAF)
 ✅ Check for unauthorized access or file changes
 ✅ Analyze compromised accounts, leaked credentials
+
+### Contact us
+- [incident@redpatron.us](mailto:incident@redpatron.us?subject=Incident!)
 
 {{% /steps %}}
