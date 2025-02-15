@@ -42,7 +42,3 @@ CTH je aktuálne dostupný iba v anglickom jazyku:
 {{< cards >}}
   {{< card link="/cth" title="Cyber Threat Hub" icon="document-text" subtitle="Switch to English version of CTH" >}}
 {{< /cards >}}
-
-[hugo]: https://gohugo.io/
-[flex-search]: https://github.com/nextapps-de/flexsearch
-[tailwind-css]: https://tailwindcss.com/
