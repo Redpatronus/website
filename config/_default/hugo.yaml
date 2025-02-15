@@ -16,9 +16,11 @@ outputs:
 defaultContentLanguage: en
 languages:
   en:
+    identifier: eng
     languageName: English
     weight: 1
   sk:
+    identifier: svk
     languageName: Slovak
     weight: 2
 
@@ -46,7 +48,7 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: portfolio
+    - identifier: services
       name: Services
       pageRef: /services
       weight: 2
@@ -54,7 +56,8 @@ menu:
       name: About
       pageRef: /about
       weight: 3
-    - name: Search
+    - identifier: search
+      name: Search
       weight: 5
       params:
         type: search
