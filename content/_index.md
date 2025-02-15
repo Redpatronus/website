@@ -37,40 +37,47 @@ layout: hextra-home
     title="Defensive Security Services"
     subtitle=""
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="https://image-optimizer.cyberriskalliance.com/unsafe/1920x0/https://files.scmagazine.com/wp-content/uploads/2024/07/072224_phishing_hook.jpg"
+    image="/images/services/defensive.png"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-    link="/services/phishing"
+    link="/services/defensive"
   >}}
   {{< hextra/feature-card
     title="External Threat & Security Monitoring Suite"
     subtitle="AI C-SEC Platform"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/eox.png"
+    image="/images/services/etsm.jpeg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-    link="/services/eox"
+    link="/services/etsm"
   >}}
   {{< hextra/feature-card
     title="Cybersecurity Training"
-    subtitle="No dependency or Node.js is needed to use Hextra. Powered by Hugo, one of *the fastest* static site generators, building your site in just seconds with a single binary."
+    subtitle="equips employees with the skills to detect, report, and respond to cyber threats, ensuring compliance and protecting company assets."
+    icon="academic-cap"
+    link="/services/training"
   >}}
   {{< hextra/feature-card
-    title="Compliance and Regulatotion / Audits"
+    title="Compliance and Regulation / Audits"
     subtitle="Compliance and Regulatotion / Audits, OSINT, GAP analysis"
+    link="/services/compliance"
+    icon="document"
   >}}
   {{< hextra/feature-card
     title="Identity Access Management"
     subtitle="Build with GitHub Actions, and host for free on GitHub Pages. Alternatively it can be hosted on any static hosting service."
     icon="user"
+    link="/services/iam"
   >}}
   {{< hextra/feature-card
     title="Phishing"
     subtitle="Create multi-language pages by just adding locales suffix to the Markdown file. Adding i18n support to your site is intuitive."
-    icon="desktop-computer"
+    icon="mail-open"
+    link="/services/phishing"
   >}}
   {{< hextra/feature-card
     title="SIEM & Audit logging"
-    icon="sparkles"
+    icon="database"
+    link="/services/siem"
   >}}
 {{< /hextra/feature-grid >}}
