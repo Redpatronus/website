@@ -65,7 +65,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Identity Access Management"
-    subtitle=""
+    subtitle="IAM as a Service using Okta, managed via Terraform and CI/CD for secure, efficient access."
     icon="user"
     link="/services/iam"
   >}}
