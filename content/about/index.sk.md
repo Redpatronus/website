@@ -1,12 +1,18 @@
 ---
-title: redpatron.us | o nas
-toc: false
+title: O nás
+width: wide
 ---
 
 ##### Kto sme
 Red Patronus je tím odborníkov na kybernetickú bezpečnosť s vášňou pre ochranu firiem v dnešnom zložitom digitálnom svete. Špecializujeme sa na pokročilé penetračné testovanie a prispôsobené bezpečnostné riešenia, ktoré pomáhajú spoločnostiam identifikovať zraniteľnosti, posilniť ich obranu a sebavedome sa pohybovať v neustále sa meniacom digitálnom prostredí. 
 Náš tím prináša dlhoročné skúsenosti z rôznych oblastí kybernetickej bezpečnosti, vrátane špecialistov na etický hacking, sieťovú bezpečnosť, aplikačnú bezpečnosť a regulačný súlad. Sme odhodlaní porozumieť jedinečným potrebám každého klienta a prispôsobiť naše riešenia tak, aby zodpovedali ich cieľom, požiadavkám odvetvia a bezpečnostným výzvam.
 Naším poslaním je jednoduché: byť vaším dôveryhodným partnerom v oblasti kybernetickej bezpečnosti. Či už potrebujete otestovať svoju obranu, chrániť citlivé údaje, alebo vyvinúť proaktívnu bezpečnostnú stratégiu, prinášame odbornosť, inováciu a odhodlanie, ktoré potrebujete na to, aby ste zostali krok pred hrozbami a chránili to, na čom vám najviac záleží.
+
+{{< cards >}}
+  {{< card link="https://tvojkapitan.sk" title="Richard M." image="/images/team/richardm.jpeg" subtitle="Cyber Security Engineer (Founder)" >}}
+  {{< card link="https://burso.eu" title="Matus B." image="/images/team/matusb.jpg" subtitle="Ethical Hacker (Co-Founder)" >}}
+   {{< card link="/" title="Angelo V." image="/images/team/angelov.jpeg" subtitle="CSO" >}}
+{{< /cards >}}
 
 ##### Prinášame Vám
 - viac ako 2 dekády skúseností v kybernetickej bezpečnosti

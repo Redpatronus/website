@@ -22,7 +22,7 @@ Our robust security operations center (SOC) monitors your systems and networks a
 
 ####	DevSecOps & Business Continuity Planning
 
-Integrate security into every facet of your daily operations with our DevSecOps and Business Continuity Planning services. We help you set up a comprehensive security framework that is proactive and agile:
+Integrate security into every facet of your daily operations with our DevSecOps and [Business Continuity Planning](/cth/under-attack/business-continuity-plan) services. We help you set up a comprehensive security framework that is proactive and agile:
 - Comprehensive Security Setup and Management: Secure and manage your cyber assets with precision.
 - Monitoring and Incident Management: Detect early vulnerabilities and mitigate risks quickly.
 - Infrastructure as Code (IaC): Apply DevSecOps principles directly to your infrastructure, ensuring security is built into the system from the ground up.
