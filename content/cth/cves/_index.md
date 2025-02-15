@@ -1,5 +1,5 @@
 ---
-title: CVE 
+title: CVE
 toc: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Identity Access Management
+title: Správa identít a prístupov
 date: 2025-02-15
 tags:
   - OWASP
