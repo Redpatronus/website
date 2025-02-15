@@ -28,7 +28,7 @@ Vitajte v Cyber Threat Hub, vašom centrálnom úložisku pre najnovšie zranite
 
 Tento hub je navrhnutý tak, aby udržal bezpečnostných odborníkov, IT tímy a organizácie informované a pripravené v neustále sa meniacom prostredí kybernetických hrozieb.
 
-## Otázky or spätná väzba?
+## Otázky alebo spätná väzba?
 
 {{< callout emoji="❓" >}}
   CTH je stále vo vývoji.
