@@ -35,7 +35,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Defensive Security Services"
-    subtitle=""
+    subtitle="Comprehensive defensive security with continuous monitoring, DevSecOps, asset management, and proactive threat response."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
     image="/images/services/defensive.png"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -44,7 +44,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="External Threat & Security Monitoring Suite"
-    subtitle="AI C-SEC Platform"
+    subtitle="uncovers vulnerabilities and delivers actionable insights."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/services/etsm.jpeg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -59,19 +59,19 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Compliance and Regulation / Audits"
-    subtitle="Compliance and Regulatotion / Audits, OSINT, GAP analysis"
+    subtitle="Compliance and Regulation / Audits, OSINT, GAP analysis"
     link="/services/compliance"
     icon="document"
   >}}
   {{< hextra/feature-card
     title="Identity Access Management"
-    subtitle="Build with GitHub Actions, and host for free on GitHub Pages. Alternatively it can be hosted on any static hosting service."
+    subtitle=""
     icon="user"
     link="/services/iam"
   >}}
   {{< hextra/feature-card
     title="Phishing"
-    subtitle="Create multi-language pages by just adding locales suffix to the Markdown file. Adding i18n support to your site is intuitive."
+    subtitle="Test employee awareness with realistic phishing simulations to reduce risks and strengthen cybersecurity."
     icon="mail-open"
     link="/services/phishing"
   >}}
