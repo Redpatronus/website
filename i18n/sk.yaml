@@ -1,4 +1,17 @@
-about: O nás
-services: Služby
-more: Viac
-search: Hľadať
+about: "O nás"
+services: "Služby"
+more: "Viac"
+search: "Hľadať"
+backToTop: "Späť hore"
+changeLanguage: "Změniť jazyk"
+changeTheme: "Zmeniť vzhľad"
+copyCode: "Zkopírovať kód"
+dark: "Tmavý"
+editThisPage: "Upraviť túto stránku na GitHube →"
+lastUpdated: "Naposledy zmenené"
+light: "Svetlý"
+noResultsFound: "Nebolo nič nájdené."
+onThisPage: "Na tejto stránke"
+poweredBy: "Powered by Hextra"
+readMore: "Prečítať viac →"
+searchPlaceholder: "Hľadať..."
