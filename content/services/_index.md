@@ -13,65 +13,59 @@ Open source projects powered by Hextra
 
 {{< cards >}}
   {{< card
-        link="/services/penetration-tests"
-        title="Penetration tests"
-        image="https://micropro.com/wp-content/uploads/2022/08/hackers.jpg"
+        link="/services/offensive"
+        title="Offensive Security Services"
+        image="/images/services/offensive.webp"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+  {{< card
+        link="/services/defensive"
+        title="Defensive Security Services"
+        image="/images/services/defensive.png"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+  {{< card
+        link="/services/etsm"
+        title="External Threat & Security Monitoring Suite"
+        image="/images/services/etsm.jpeg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+  {{< card
+        link="/services/training"
+        title="Cybersecurity Training"
+        image="/images/services/training.webp"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+  {{< card
+        link="/services/compliance"
+        title="Compliance and Regulation / Audits"
+        image="/images/services/compliance.webp"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+  {{< card
+        link="/services/iam"
+        title="Identity Access Management"
+        image="/images/services/iam.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
   {{< card
         link="/services/phishing"
         title="Phishing"
-        image="https://image-optimizer.cyberriskalliance.com/unsafe/1920x0/https://files.scmagazine.com/wp-content/uploads/2024/07/072224_phishing_hook.jpg"
+        image="/images/services/phishing.webp"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
   {{< card
-        link="/services/eox"
-        title="EagleOneX"
-        image="/images/eox.png"
+        link="/services/siem"
+        title="SIEM & Audit logging"
+        image="/images/services/logging.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-
-  {{< card
-        link="https://github.com/mightymoud/sidekick"
-        title="Sidekick"
-        image="https://github.com/user-attachments/assets/4ae2a9d7-77b6-42eb-a9d7-5c4599f0f812"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-
-  {{< card
-        link="https://github.com/welding-torch/installc"
-        title="Install C"
-        image="https://github.com/user-attachments/assets/c9a85327-c7e7-40f1-830a-b4190a5e47bd"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-
-  {{< card
-        link="https://github.com/axivo/website"
-        title="AXIVO Docs"
-        image="https://github.com/imfing/hextra/assets/19806136/f22f0710-23a0-430b-8bad-616283b8a3e5"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-
-  {{< card
-        link="https://github.com/infracourse/web"
-        title="Stanford CS 40"
-        image="https://github.com/imfing/hextra/assets/5097752/8c29470b-3994-41c8-be9a-5b41476e6f3c"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-
-  {{< card
-        link="https://github.com/helixml/docs"
-        title="Helix Docs"
-        image="https://github.com/imfing/hextra/assets/5097752/78045af0-4922-4358-ae73-624770909db6"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-
-  {{< card
-        link="https://developers.clever-cloud.com/"
-        title="Clever Cloud Documentation"
-        image="https://cellar-c2.services.clever-cloud.com/documentation/doc-screenshot.png" imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
 {{< /cards >}}
