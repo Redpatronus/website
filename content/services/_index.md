@@ -43,7 +43,7 @@ Open source projects powered by Hextra
   {{< card
         link="/services/compliance"
         title="Compliance and Regulation / Audits"
-        image="/images/services/compliance.webp"
+        image="/images/services/compliance.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
