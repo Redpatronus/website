@@ -10,7 +10,7 @@ excludeSearch: true
 
 #### Overview
 
-Our External Threat & Security Monitoring service harnesses the power of OSINT to provide continuous, automated surveillance of publicly available data, ensuring your organization stays one step ahead of potential threats. By leveraging a suite of advanced OSINT tools—including Censys, Shodan, ProjectDiscovery, [SSlabs](https://github.com/matusso/libssllabs), our own fuzzing tools like Spotphish (part of [EagleOneX](/eox) [AI C-SEC Platform] project) and many more — we proactively detect and analyze vulnerabilities and risks that attackers might exploit.
+Our External Threat & Security Monitoring service harnesses the power of OSINT to provide continuous, automated surveillance of publicly available data, ensuring your organization stays one step ahead of potential threats. By leveraging a suite of advanced OSINT tools—including Censys, Shodan, ProjectDiscovery, [SSlabs](https://github.com/matusso/libssllabs), our own fuzzing tools like Spotphish (part of [EagleOneX](/eox) [AI CySec Platform] project) and many more — we proactively detect and analyze vulnerabilities and risks that attackers might exploit.
 
 #### How It Works
 - Comprehensive Data Analysis: We gather and scrutinize public information from social media, forums, public databases, and more to understand what sensitive details are accessible to cyber adversaries.
