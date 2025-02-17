@@ -7,7 +7,7 @@ toc: false
 
 {{< callout emoji="⚠️" type="error" >}}
   In case of emergency, you can contact us on e-mail: **[incident@redpatron.us](mailto:incident@redpatron.us)**,
-or you can use telephone number: **[+421 917 111 122](tel:+421917111122)**
+or you can use telephone number: **[+447868814***](tel:++447868814***)** (only for paying customers)
 {{< /callout >}}
 
 
