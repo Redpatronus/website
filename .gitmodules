@@ -1,9 +1,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:Redpatronus/redpatronus.github.io.git
-[submodule "hextra"]
-	path = themes/hextra
-	url = https://github.com/imfing/hextra.git
 [submodule "themes/hextra"]
 	path = themes/hextra
 	url = https://github.com/imfing/hextra
