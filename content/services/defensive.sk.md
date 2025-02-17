@@ -52,7 +52,7 @@ Vybavte svojich zamestnancov zručnosťami potrebnými na rozpoznanie a riešeni
 
 Výchovou bezpečnostne uvedomelého tímu nielenže chránite citlivé údaje, ale aj posilňujete celkovú kybernetickú bezpečnosť vašej organizácie. Viac informácií nájdete tu.
 
-Služby Blue Team
+#### Služby Blue Team
 
 Náš špecializovaný Blue Team je v prvej línii obrany, zabezpečujúc, aby vaše systémy a siete zostali chránené prostredníctvom neustáleho monitorovania a rýchlej reakcie na incidenty. Ponúkame:
 - **Proaktívne riadenie hrozieb**: Využívajte spravodajstvo o hrozbách a automatizované monitorovanie na odhaľovanie zraniteľností skôr, než budú zneužité.
