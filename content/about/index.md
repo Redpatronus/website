@@ -69,3 +69,21 @@ Security is an investment, not an expense. Investing in robust, preventative cyb
 
 ###### Don’t Wait for a Cyberattack to Act
 The future of your business depends on the steps you take today. Connect with Red Patronus for top-notch protection and a team dedicated to safeguarding your business at every step. Contact us now for a free assessment and let’s start building a secure foundation for your business!
+
+## Conferences, Certificates & Awards
+
+- **CEH**
+- **SSCP**
+ 
+{{< tabs items="Cyber Apocalypse CTF 2021,Hacktivity Avatao CTF 2016,Confidence CTF 2023" >}}
+
+  {{< tab >}}**Cyber Apocalypse CTF 2021**: Ranked #24 worldwide (#1 from Czech republic and Slovakia) - part of team **assembly**
+   {{< pdf "/awards/apocalypse-ctf-2021.pdf" >}}
+  {{< /tab >}}
+  {{< tab >}}**Hacktivity Avatao CTF 2016**: Winner, one of 6 people able to solve all challenges.{{< /tab >}}
+  {{< tab >}}**Confidence CTF 2023**: 
+   Finished on 2nd and 3rd place.  
+   {{< video src="/awards/confidence_2023.mp4" poster="/images/conf3.png" width="800" >}}
+  {{< /tab >}}
+
+{{< /tabs >}}
