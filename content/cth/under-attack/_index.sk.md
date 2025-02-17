@@ -7,7 +7,7 @@ toc: false
 
 {{< callout emoji="⚠️" type="error" >}}
   V prípade núdze nás môžete kontaktovať prostredníctvom e-mailu: **[incident@redpatron.us](mailto:incident@redpatron.us)**,
-alebo telefónneho čísla: **[+421 917 111 122](tel:+421917111122)**
+alebo telefónneho čísla: **[+447868814***](tel:+447868814***)** (iba pre platiacich zákazníkov)
 {{< /callout >}}
 
 
