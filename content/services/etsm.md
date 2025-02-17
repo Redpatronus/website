@@ -2,9 +2,9 @@
 title: External Threat & Security Monitoring
 date: 2025-02-15
 tags:
-  - Markdown
-  - Example
-  - Guide
+  - Threat
+  - Security Monitoring
+  - Automatization
 excludeSearch: true
 ---
 
