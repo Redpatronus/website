@@ -80,5 +80,20 @@ Bezpečnosť je investícia, nie náklad. Investovaním do robustnej, preventív
 
 Budúcnosť vášho podnikania závisí od krokov, ktoré podniknete už dnes. Spojte sa s Red Patronus pre špičkovú ochranu a tím, ktorý sa venuje ochrane vášho podnikania v každom kroku. Kontaktujte nás teraz pre bezplatné zhodnotenie a začnime budovať bezpečný základ pre vaše podnikanie!
 
+## Konferencie, certifikáty a ocenenia
 
+- **CEH**
+- **SSCP**
+ 
+{{< tabs items="Cyber Apocalypse CTF 2021,Hacktivity Avatao CTF 2016,Confidence CTF 2023" >}}
 
+  {{< tab >}}**Cyber Apocalypse CTF 2021**: Zaradený na 24. mieste na svete (č. 1 z Českej republiky a Slovenska) - člen tímu **assembly**
+   {{< pdf "/awards/apocalypse-ctf-2021.pdf" >}}
+  {{< /tab >}}
+  {{< tab >}}**Hacktivity Avatao CTF 2016**: Víťaz, jeden z 6 ľudí, ktorí dokázali vyriešiť všetky úlohy.{{< /tab >}}
+  {{< tab >}}**Confidence CTF 2023**: 
+   Skončili sme na 2. a 3. mieste.  
+   {{< video src="/awards/confidence_2023.mp4" poster="/images/conf3.png" width="800" >}}
+  {{< /tab >}}
+
+{{< /tabs >}}
