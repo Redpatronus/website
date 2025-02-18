@@ -107,8 +107,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/rp-icon.png
-      dark: images/rp-icon.png
+      path: favicon-dark.svg
+      dark: favicon-dark.svg
       # width: 40 
       # height: 20
       # link: /
