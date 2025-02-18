@@ -92,9 +92,10 @@ Budúcnosť vášho podnikania závisí od krokov, ktoré podniknete už dnes. S
    {{< pdf "/awards/apocalypse-ctf-2021.pdf" >}}
   {{< /tab >}}
   {{< tab >}}**Hacktivity Avatao CTF 2016**: Víťaz, jeden z 6 ľudí, ktorí dokázali vyriešiť všetky úlohy.{{< /tab >}}
+  {{< pdf "/awards/hacktivity-2016.pdf" >}}
   {{< tab >}}**Confidence CTF 2023**: 
    Skončili sme na 2. a 3. mieste.  
-   {{< video src="/awards/confidence_2023.mp4" poster="/images/conf3.png" width="800" >}}
+   {{< youtube GBBZblID-U4 >}}width="800" >}}
   {{< /tab >}}
 
 {{< /tabs >}}

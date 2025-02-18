@@ -8,7 +8,7 @@ Red Patronus is a team of cybersecurity experts passionate about protecting busi
 Our team brings years of experience across various cybersecurity fields, including ethical hacking, network security, application security, and regulatory compliance. We are committed to understanding each client’s unique needs and tailoring our solutions to align with their goals, industry requirements, and security challenges.
 Our mission is simple: to be your trusted partner in cybersecurity. Whether you need to test your defenses, protect sensitive data, or develop a proactive security strategy, we bring the expertise, innovation, and dedication you need to stay a step ahead of threats and protect what matters most to you.
 
- {{< cards cols="2" >}}
+{{< cards cols="2" >}}
   {{< card link="https://tvojkapitan.sk" title="Richard M." image="/images/team/richardm.jpeg" subtitle="Cyber Security Engineer (Founder)" >}}
   {{< card link="https://burso.eu" title="Matus B." image="/images/team/matusb.jpg" subtitle="Ethical Hacker (Co-Founder)" >}}
    {{< card link="/" title="Angelo V." image="/images/team/angelov.jpeg" subtitle="CSO" >}}
@@ -78,13 +78,19 @@ The future of your business depends on the steps you take today. Connect with Re
  
 {{< tabs items="Cyber Apocalypse CTF 2021,Hacktivity Avatao CTF 2016,Confidence CTF 2023" >}}
 
-  {{< tab >}}**Cyber Apocalypse CTF 2021**: Ranked #24 worldwide (#1 from Czech republic and Slovakia) - part of team **assembly**
+  {{< tab >}}
+    **Cyber Apocalypse CTF 2021**: Ranked #24 worldwide (#1 from Czech republic and Slovakia) - part of team **assembly**
    {{< pdf "/awards/apocalypse-ctf-2021.pdf" >}}
   {{< /tab >}}
-  {{< tab >}}**Hacktivity Avatao CTF 2016**: Winner, one of 6 people able to solve all challenges.{{< /tab >}}
+  
+  {{< tab >}}
+    **Hacktivity Avatao CTF 2016**: Winner, one of 6 people able to solve all challenges.
+    {{< pdf "/awards/hacktivity-2016.pdf" >}}
+  {{< /tab >}}
+  
   {{< tab >}}**Confidence CTF 2023**: 
    Finished on 2nd and 3rd place.  
-   {{< video src="/awards/confidence_2023.mp4" poster="/images/conf3.png" width="800" >}}
+   {{< youtube GBBZblID-U4 >}}
   {{< /tab >}}
 
 {{< /tabs >}}
