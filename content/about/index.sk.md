@@ -91,8 +91,11 @@ Budúcnosť vášho podnikania závisí od krokov, ktoré podniknete už dnes. S
   {{< tab >}}**Cyber Apocalypse CTF 2021**: Zaradený na 24. mieste na svete (č. 1 z Českej republiky a Slovenska) - člen tímu **assembly**
    {{< pdf "/awards/apocalypse-ctf-2021.pdf" >}}
   {{< /tab >}}
-  {{< tab >}}**Hacktivity Avatao CTF 2016**: Víťaz, jeden z 6 ľudí, ktorí dokázali vyriešiť všetky úlohy.{{< /tab >}}
+  
+  {{< tab >}}**Hacktivity Avatao CTF 2016**: Víťaz, jeden z 6 ľudí, ktorí dokázali vyriešiť všetky úlohy.
   {{< pdf "/awards/hacktivity-2016.pdf" >}}
+  {{< /tab >}}
+  
   {{< tab >}}**Confidence CTF 2023**: 
    Skončili sme na 2. a 3. mieste.  
    {{< youtube GBBZblID-U4 >}}width="800" >}}
