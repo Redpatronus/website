@@ -98,7 +98,7 @@ Budúcnosť vášho podnikania závisí od krokov, ktoré podniknete už dnes. S
   
   {{< tab >}}**Confidence CTF 2023**: 
    Skončili sme na 2. a 3. mieste.  
-   {{< youtube GBBZblID-U4 >}}width="800" >}}
+   {{< youtube GBBZblID-U4 >}}
   {{< /tab >}}
 
 {{< /tabs >}}
