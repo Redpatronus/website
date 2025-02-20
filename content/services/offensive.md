@@ -19,7 +19,6 @@ Our Offensive Security Services are designed to rigorously assess your organizat
   {{< card
         link="mailto:sales@redpatron.us?subject=Quote for Web Penetration Test"
         title="Web Penetration Tests by OWASP methodology"
-        subtitle="from 5000 eur"
         image="https://micropro.com/wp-content/uploads/2022/08/hackers.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
@@ -27,7 +26,6 @@ Our Offensive Security Services are designed to rigorously assess your organizat
   {{< card
         link="mailto:sales@redpatron.us?subject=Quote for Infrastructure Penetration Test"
         title="Infrastructure Penetration Tests"
-        subtitle="from 2500 eur"
         image="https://image-optimizer.cyberriskalliance.com/unsafe/1920x0/https://files.scmagazine.com/wp-content/uploads/2024/07/072224_phishing_hook.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
