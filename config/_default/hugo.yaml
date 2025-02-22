@@ -62,20 +62,26 @@ menu:
       params:
         type: search
     - name: GitHub
-      weight: 6
+      weight: 7
       url: "https://github.com/Redpatronus"
       params:
         icon: github
     - name: X
-      weight: 7
+      weight: 8
       url: "https://x.com/redpatronus"
       params:
         icon: x-twitter
     - name: Mail
-      weight: 5
+      weight: 6
       url: "mailto:info@redpatron.us"
       params:
         icon: mail
+    - name: Phone
+      identifier: phone
+      weight: 5
+      url: "tel:+421 948 446 778"
+      params:
+        icon: phone
 
   sidebar:
     - identifier: more
