@@ -44,6 +44,7 @@ markup:
           inline: [['\(', '\)']]
         enable: true
 
+
 enableInlineShortcodes: true
 
 menu:
@@ -108,6 +109,7 @@ menu:
 
 params:
   description: We can make the world more secure, together we will.
+  keywords: "security, consulting, services, redpatronus, redpatron.us"
 
   navbar:
     displayTitle: true
