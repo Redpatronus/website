@@ -32,25 +32,18 @@ module:
   workspace: hugo.work
 
 markup:
-  asciidocExt:
-    attributes: {}
-    backend: html5
-    extensions: []
-    failureLevel: fatal
-    noHeaderOrFooter: true
-    preserveTOC: false
-    safeMode: unsafe
-    sectionNumbers: false
-    trace: false
-    verbose: false
-    workingFolderCurrent: false
+  highlight:
+    noClasses: false
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       passthrough:
         delimiters:
           block: [['\[', '\]'], ['$$', '$$']]
           inline: [['\(', '\)']]
         enable: true
+
 
 enableInlineShortcodes: true
 
@@ -117,7 +110,7 @@ menu:
 params:
   description: We can make the world more secure, together we will.
   keywords: "security, consulting, services, redpatronus, redpatron.us"
-  
+
   navbar:
     displayTitle: true
     displayLogo: true
