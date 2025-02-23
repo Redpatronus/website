@@ -1,0 +1,113 @@
+{{- if not (.Page.Scratch.Get "hasChartJS") -}}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    Chart.defaults.color = '#E0E0E0'; /* Light grey text */
+    Chart.defaults.font.family = 'Inter, sans-serif'; /* Modern font */
+</script>
+{{- .Page.Scratch.Set "hasChartJS" true -}}
+{{- end -}}
+
+{{- $id := substr (md5 .Inner) 0 16 -}}
+<style>
+    /* Chart Container */
+    .chart-container {
+        text-align: center;
+        background-color: #181818; /* Dark Grey Background */
+        padding: 24px;
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    /* Button Container */
+    .chart-buttons {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    /* Modern Flat Buttons */
+    .chart-button {
+        background: #252525; /* Dark Grey */
+        color: #f5f5f5; /* Soft White Text */
+        border: 1px solid #2d2d2d; /* Subtle Border */
+        padding: 12px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.2s ease, transform 0.1s ease-in-out;
+        outline: none;
+    }
+
+    .chart-button:hover {
+        background: #303030; /* Slightly lighter grey */
+    }
+
+    .chart-button:active {
+        background: #3a3a3a; /* Even lighter grey */
+        transform: scale(0.98);
+    }
+
+    .reset-button {
+        background: #444; /* Neutral grey */
+        border: none;
+    }
+
+    .reset-button:hover {
+        background: #555;
+    }
+
+    /* Chart.js Canvas */
+    canvas {
+        max-width: 100%;
+    }
+</style>
+
+<!-- Include Inter font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+<div class="chart-container">
+    <canvas id="{{ $id }}"></canvas>
+    <div class="chart-buttons">
+        <button class="chart-button reset-button" onclick="resetToDefault('{{ $id }}')"><strong>Country</strong></button>
+        {{ range $key, $value := .Inner | unmarshal }}
+            {{ if ne $key "Country" }}
+                <button class="chart-button" onclick="loadDataset('{{ $id }}', '{{ $key }}')"><strong>{{ $key }}</strong></button>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        let delayed;
+        var ctx = document.getElementById('{{ $id }}');
+        var chartData = {{ .Inner | chomp | safeJS }};
+
+        var defaultDataset = JSON.parse(JSON.stringify(chartData["Country"])); // Deep copy for reset
+        var myChart = new Chart(ctx, {
+            type: "bar",
+            data: defaultDataset,
+            options: defaultDataset.options
+        });
+
+        window.loadDataset = function(chartId, datasetKey) {
+            if (chartId !== '{{ $id }}') return;
+            if (!chartData[datasetKey]) return;
+
+            myChart.data = JSON.parse(JSON.stringify(chartData[datasetKey])); // Deep copy to prevent reference issues
+            myChart.update();
+        };
+
+        window.resetToDefault = function(chartId) {
+            if (chartId !== '{{ $id }}') return;
+
+            myChart.data = JSON.parse(JSON.stringify(defaultDataset)); // Restore deep copy
+            myChart.update();
+        };
+    });
+</script>
