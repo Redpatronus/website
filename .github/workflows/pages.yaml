@@ -91,6 +91,11 @@ jobs:
             echo "report_exists=false" >> $GITHUB_ENV
           fi
 
+      - name: Install xmllint
+        run: |
+          sudo apt-get update || exit 1
+          sudo apt-get install -y libxml2-utils || exit 1
+    
       - name: Fix XML Encoding Issues
         if: env.report_exists == 'true'
         run: |
