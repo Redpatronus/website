@@ -63,15 +63,20 @@ menu:
       params:
         type: search
     - name: GitHub
-      weight: 7
+      weight: 8
       url: "https://github.com/Redpatronus"
       params:
         icon: github
     - name: X
-      weight: 8
+      weight: 7
       url: "https://x.com/redpatronus"
       params:
         icon: x-twitter
+    - name: LinkedIn
+      weight: 9
+      url: "https://www.linkedin.com/company/redpatronus"
+      params:
+        icon: linkedin
     - name: Mail
       weight: 6
       url: "mailto:info@redpatron.us"
