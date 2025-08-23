@@ -10,9 +10,7 @@ Our mission is simple: to be your trusted partner in cybersecurity. Whether you 
 
 {{< cards cols="2" >}}
   {{< card link="https://tvojkapitan.sk" title="Richard M." image="/images/team/richardm.jpeg" subtitle="Cyber Security Engineer (Founder)" >}}
-  {{< card link="https://burso.eu" title="Matus B." image="/images/team/matusb.jpg" subtitle="Ethical Hacker (Co-Founder)" >}}
-   {{< card link="/" title="Angelo V." image="/images/team/angelov.jpeg" subtitle="CSO" >}}
-   {{< card link="/" title="Martin Z." image="/images/team/martinz.jpeg" subtitle="Ethical Hacker" >}}
+  {{< card link="https://burso.eu" title="Matus B." image="/images/team/matusb.png" subtitle="Ethical Hacker (Co-Founder)" >}}
 {{< /cards >}}
 
 ##### We Offer You
