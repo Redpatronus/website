@@ -73,6 +73,7 @@ The future of your business depends on the steps you take today. Connect with Re
 
 - **CEH**
 - **SSCP**
+- **[Cisco Ethical Hacker](https://www.credly.com/badges/72ddc608-54ce-4b55-ba0b-3123b033032d)**
  
 {{< tabs items="Cyber Apocalypse CTF 2021,Hacktivity Avatao CTF 2016,Confidence CTF 2023" >}}
 
