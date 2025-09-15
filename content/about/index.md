@@ -72,8 +72,20 @@ The future of your business depends on the steps you take today. Connect with Re
 ## Conferences, Certificates & Awards
 
 - **CEH**
-- **SSCP**
+- **SSCP** by ISC2
 - **[Cisco Ethical Hacker](https://www.credly.com/badges/72ddc608-54ce-4b55-ba0b-3123b033032d)**
+- **Certified Kubernetes Administrator** by The Linux Foundation
+- **Certified Kubernetes Security Specialist** by The Linux Foundation
+- **Certified Argo Project Associate** by The Argo Project (CNCF)
+- **BIG-IP ASM Specialist (303), WAF Certificate** by F5
+- **Prince2 Foundation Certificate**
+- **ITIL v4 Strategist: Direct, Plan and Improve**
+- **Azure Administrator**
+- **CISSP**
+- **CCSP**
+- **PNPT** (WIP)
+- **OSCP** (WIP)
+- **THM SAL1**
  
 {{< tabs items="Cyber Apocalypse CTF 2021,Hacktivity Avatao CTF 2016,Confidence CTF 2023" >}}
 
