@@ -82,7 +82,7 @@ Budúcnosť vášho podnikania závisí od krokov, ktoré podniknete už dnes. S
 ## Konferencie, certifikáty a ocenenia
 
 - **CEH**
-- **SSCP**
+- **SSCP** by ISC2
 - **[Cisco Ethical Hacker](https://www.credly.com/badges/72ddc608-54ce-4b55-ba0b-3123b033032d)**
 - **Certified Kubernetes Administrator** by The Linux Foundation
 - **Certified Kubernetes Security Specialist** by The Linux Foundation
